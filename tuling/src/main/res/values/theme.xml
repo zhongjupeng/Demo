@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomActionBarTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/CustomActionBarBackgroud1</item>
+
+    </style>
+
+    <style name="CustomActionBarBackgroud1" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@color/first</item>
+    </style>
+
+ <!--////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <style name="CustomActionBarTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/CustomActionBarBackgroud2</item>
+
+    </style>
+
+    <style name="CustomActionBarBackgroud2" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@color/second</item>
+    </style>
+
+  <!--////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <style name="CustomActionBarTheme3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/CustomActionBarBackgroud3</item>
+
+    </style>
+
+    <style name="CustomActionBarBackgroud3" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@color/third</item>
+    </style>
+
+  <!--////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <style name="CustomActionBarTheme4" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/CustomActionBarBackgroud4</item>
+
+    </style>
+
+    <style name="CustomActionBarBackgroud4" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@color/fourth</item>
+    </style>
+
+
+</resources>

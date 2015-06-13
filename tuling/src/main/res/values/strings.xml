@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">灵儿</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="default_edit_hint">请输入内容</string>
+
+    <string name="ly">柳岩</string>
+    <string name="lzl">林志玲</string>
+    <string name="zjy">张钧甯</string>
+    <string name="xc">小仓</string>
+    <string name="fyj">翻译君</string>
+
+
+
+
+    <string name="liuyan">老板,我是柳岩,来自湖南,人家可是性感的辣妹子哦!</string>
+    <string name="linzhiling">老板,我是志玲,来自台湾,别人都叫我志玲姐姐，你认识我吗？</string>
+    <string name="zhangjunning">老板,我是张钧甯,出生在德国哦,我是个很乖巧的妹子,你要喜欢人家哦,么么哒!</string>
+    <string name="xiaocang">老板,我是小仓老师,我可是所有男生心目中的女神哦,你会喜欢我吧？</string>
+    <string name="fanyijun">Hello!我是翻译君哦,很高兴为您服务,我会努力帮你做翻译的,尽管我现在只懂中英文^_^</string>
+
+</resources>

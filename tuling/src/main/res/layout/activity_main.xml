@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+    >
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        android:transcriptMode="alwaysScroll"
+        />
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/deep_green_se"
+        >
+      <EditText
+          android:id="@+id/sendText"
+          android:layout_width="fill_parent"
+          android:layout_height="42dp"
+          android:background="@drawable/input_shape"
+          android:maxLines="4"
+          android:layout_centerVertical="true"
+          android:imeOptions="actionDone"
+          android:hint="@string/default_edit_hint"
+          android:layout_toLeftOf="@+id/bt_send"
+          android:layout_toStartOf="@+id/bt_send" />
+
+      <ImageButton
+          android:id="@+id/bt_send"
+          android:layout_alignParentRight="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/btn_send_selector"
+          android:background="#00ffffff"
+          android:padding="3.0dip"
+          />
+
+     </RelativeLayout>
+
+
+</LinearLayout>

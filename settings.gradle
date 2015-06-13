@@ -1,0 +1,2 @@
+include ':app', ':layoutanim', ':surfaceview', ':tuling', ':circleimageview', ':sample', ':weixinsdk', ':weather'
+include ':amm_sdk_sample'

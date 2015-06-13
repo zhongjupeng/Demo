@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.juhe.weather" >
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="com.juhe.weather.WeatherApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ico_cartoon"
+        android:label="weather"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+
+        <meta-data
+            android:name="com.thinkland.juheapi.openid"
+            android:value="JH5d7ac2c8d0cfae54d12e81b362bcdcfa"/>
+        <activity
+            android:name=".WeatherActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".test.TestActivity"></activity>
+        <activity android:name=".CityActivity"></activity>
+        <service android:name=".service.WeatherService"></service>
+
+    </application>
+
+</manifest>
